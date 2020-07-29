@@ -4,11 +4,11 @@ import SongList from './SongList';
 const App = () => {
     return (
         <div className="ui container grid">\
-            <dic className="ui row">
+            <div className="ui row">
                 <div className="column eight wide">
                     <SongList />
                 </div>
-            </dic>
+            </div>
         </div>
     );
 };
